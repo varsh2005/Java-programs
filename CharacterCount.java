@@ -29,5 +29,6 @@ public class CharacterCount {
     Scanner sc = new Scanner(System.in);
     String str = sc.nextLine();
     charCount(str);
+    sc.close();
   }
 }
