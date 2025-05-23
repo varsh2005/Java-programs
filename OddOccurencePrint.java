@@ -23,7 +23,7 @@ public class OddOccurencePrint {
     }
 
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 2, 3, 1, 3};
+        int[] arr = {1, 2, 2 , 3, 2, 3, 1, 3};
         printOddOccurrences(arr);
     }
 }

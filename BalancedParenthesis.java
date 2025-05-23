@@ -4,10 +4,10 @@ public class BalancedParenthesis{
     Stack<Character> stack = new Stack<>();
     for(char ch: str.toCharArray()){
       if(ch=='('){
-        stack.push();
+        stack.push(ch);
       }
       else if(ch == ')'){
-        if(stack.isEmpty() || stack.pop != '('){
+        if(stack.isEmpty() || stack.pop() != '('){
           return false;
         }
       }
